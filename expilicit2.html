@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parsefloat</title>
+</head>
+<body>
+    <script type="text/javascript">
+        
+        document.write(parseFloat(24.0));//24
+        document.write("<br/>");
+        document.write(parseFloat(12.0+12.0));//24
+        document.write("<br/>");
+        document.write(parseFloat(12.0124));//12.0124
+        document.write("<br/>");
+        document.write(parseFloat(12.22+12.22));//24.44
+        document.write("<br/>");
+        document.write(parseFloat("12.0124"));//12.0124
+
+        document.write("<br/>");
+        document.write(parseFloat("12.0"+"12.0"));
+        document.write("<br/>");
+        document.write(parseFloat("0.0124"));//0.0124
+        document.write("<br/>");
+        document.write(parseFloat("3.142.124"));//3.142
+        document.write("<br/>");
+        document.write(parseFloat("12.012+12.012"));//12.012
+        document.write("<br/>");
+        document.write(parseFloat("12.0"+"13.0"));//12.013
+        document.write("<br/>");
+        document.write(parseFloat("0.0124"));//0.0124
+        document.write("<br/>");
+        document.write(parseFloat("some3.142"));//NaN
+        document.write("<br/>");
+        document.write(parseFloat("12.012+12.012"));//12.012
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>call stack demo</title>
+</head>
+<body>
+    <h1>Call Stack demo</h1>
+    <script>
+        function g(){
+            document.write("g","<br/>");
+        }
+        function h(){
+            document.write("h","<br/>");
+        }
+        function i(){
+            document.write("i","<br/>");
+        }
+        g();
+        h();
+        i();//scope can verifies in debug in using chrome
+    </script>
+    <script>
+        function square(x){
+            return x*x;
+        }
+        var rvalue=square(3);
+        document.write(rvalue);
+    </script>
+</body>
+</html>

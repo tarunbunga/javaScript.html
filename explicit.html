@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>explicit parseInt</title>
+</head>
+<body>
+  <script type="text/javascript">
+    document.write(parseInt(24));//24
+    document.write("<br/>");
+    document.write(parseInt(12+12));//24
+    document.write("<br/>");
+    document.write(parseInt(23322.22));//23322
+    document.write("<br/>");
+    document.write(parseInt(12.22+12.22));//24
+    document.write("<br/>");
+    document.write(parseInt("12+12"));//24
+    document.write("<br/>");
+    document.write(parseInt("12+tarun"));//12
+    document.write("<br/>");
+    document.write(parseInt("12raju"));//12
+    document.write("<br/>");
+    document.write(parseInt("12"+"12"));//1212
+    document.write("<br/>");
+    document.write(parseInt("12"+"12as"));//1212
+    document.write("<br/>");
+    document.write(parseInt("12a"+"12a"));//12
+    document.write("<br/>");
+    document.write(parseInt("raju12"));//NaN
+    document.write("<br/>");
+    document.write(parseInt("true"));//NaN
+    document.write("<br/>");
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eval function</title>
+</head>
+<body>
+<h1>tarun</h1>
+<script>
+  document.write(eval(2));//2
+  document.write("<br/>");
+  document.write(parseInt(2));//2
+  document.write("<br/>");
+  document.write(parseFloat(2));//2
+  document.write("<br/>");
+  document.write(eval(2.2252));//2.2252
+  document.write("<br/>");
+  document.write(parseInt(2.2252));//2
+  document.write("<br/>");
+  document.write(parseFloat(2.2252));//2.2252
+  document.write("<br/>");
+  document.write(eval(2+2));//4
+  document.write("<br/>");
+  document.write(parseInt(2+2));//4
+  document.write("<br/>");
+  document.write(parseFloat(2+2));//4
+  document.write("<br/>");
+  document.write(eval(2.25+2.25));//4.5
+  document.write("<br/>");
+  document.write(parseInt(2.25+2.25));//2
+  document.write("<br/>");
+  document.write(parseFloat(2.25+2.25));//4.5
+  document.write("<br/>");
+  //document.write(eval("25somr24"));//error
+  document.write("<br/>");
+  document.write(parseInt("25some"));//25
+  document.write("<br/>");
+  //document.write(eval("3.255some"));//3.55
+  document.write("<br/>");
+  document.write(eval("2+2"));//4
+  document.write("<br/>");
+  document.write(parseInt("2+2"));//2
+  document.write("<br/>");
+  document.write(parseFloat("2.22+2.22"));//2.22
+  document.write("<br/>");
+  document.write("<br/>");
+  document.write(eval("var A=10;A;"));//2
+  document.write("<br/>");
+  document.write(parseInt("var A=10;A;"));//2
+  document.write("<br/>"); 
+  document.write(parseFloat("var A=10;A;"));//2
+  document.write("<br/>");
+</script>
+</body>
+</html>
